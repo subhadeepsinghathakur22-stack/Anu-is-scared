@@ -1,0 +1,10 @@
+# Plain static site: a single self-contained HTML file, no build step required.
+[build]
+  publish = "."
+  command = ""
+
+# The site has no index.html, so serve the page at the root URL.
+[[redirects]]
+  from = "/"
+  to = "/For_Anu_Moon.html"
+  status = 200
